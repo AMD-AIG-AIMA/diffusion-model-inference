@@ -1,0 +1,7 @@
+The files scripts/hunyuan_video_usp_example_custom.py and scripts/huvideo_utils.py
+contain code adapted from xDiT Team (https://github.com/xdit-project/xDiT).
+Copyright 2024 xDiT Team. All rights reserved.
+
+The file scripts/wan_i2v.py contains code adapted 
+from The Alibaba Wan Team Authors (https://github.com/Wan-Video/Wan2.1).
+Copyright 2024-2025 The Alibaba Wan Team Authors. All rights reserved.
