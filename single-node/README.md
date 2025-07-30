@@ -105,10 +105,10 @@ The generated video is found in `${HOST_OUT_DIRECTORY}`.
 The Docker image provides [MIOpen tuning data](https://rocm.docs.amd.com/projects/MIOpen/en/latest/conceptual/tuningdb.html) for 129 frame generation on `960x544` (batch sizes 1, 4, 8, 16), `1280x720` (batch sizes 1, 4, 8, 16), `1920x1088` (batch size 1), and `1280x720` (batch size 1).
 
 ## Information on repository contents
-Besides the inference sample code in [`./scripts/](./scripts/), this repository contains additional files and data to enable users to build the Dockerfile themselves if needed.
+Besides the inference sample code in [scripts/](./scripts/), this repository contains additional files and data to enable users to build the Dockerfile themselves if needed.
 
-MIOpen tuning data is provided in the subdirectory [`./miopen/](./miopen/).
+MIOpen tuning data is provided in the subdirectory [miopen/](./miopen/).
 
-An implementation of `torch.nn.GroupNorm` optimized for MI300X is included in the Docker image, and distributed as a prebuilt wheel in [`./wheels/`](./wheels/).
+An implementation of `torch.nn.GroupNorm` optimized for MI300X is included in the Docker image, and distributed as a prebuilt wheel in [wheels/](./wheels/).
 
-A set of predefined example prompts for HunyuanVideo T2V are provided in [`./data/video_descriptions.csv`](./data/video_descriptions.csv). These are used by the inference script in the order they appear in for batch sizes larger than one.
+A set of predefined example prompts for HunyuanVideo T2V are provided in [data/video_descriptions.csv](./data/video_descriptions.csv). These are used by the inference script in the order they appear in for batch sizes larger than one.
